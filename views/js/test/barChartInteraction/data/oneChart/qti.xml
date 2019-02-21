@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:html5="html5" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="i155074517586213642" title="BANDYMAI 9" label="BANDYMAI 9" xml:lang="en-US" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-sprint96">
+  <responseDeclaration identifier="RESPONSE" cardinality="single" baseType="integer">
+    <correctResponse>
+      <value><![CDATA[50]]></value>
+    </correctResponse>
+  </responseDeclaration>
+  <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+  <stylesheet href="style/custom/tao-user-styles.css" type="text/css" media="all" title=""/>
+  <itemBody>
+    <div class="grid-row">
+      <div class="col-12">
+        <customInteraction responseIdentifier="RESPONSE">
+          <portableCustomInteraction xmlns="http://www.imsglobal.org/xsd/portableCustomInteraction" customInteractionTypeIdentifier="barChartInteraction" hook="barChartInteraction/runtime/barChartInteraction.amd.js" version="0.1.0">
+            <resources>
+                                            <libraries><lib id="IMSGlobal/jquery_2_1_1"/><lib id="barChartInteraction/runtime/amcharts/amcharts"/><lib id="barChartInteraction/runtime/amcharts/serial"/><lib id="barChartInteraction/runtime/amcharts/light"/></libraries></resources>
+            <properties/>
+            <markup xmlns="http://www.w3.org/1999/xhtml">
+              <div class="barChartInteraction">
+                <div class="prompt"/>
+                <div class="barChart"/>
+              </div>
+            </markup>
+          </portableCustomInteraction>
+        </customInteraction>
+      </div>
+    </div>
+  </itemBody>
+  <responseProcessing template="http://www.imsglobal.org/question/qti_v2p2/rptemplates/match_correct"/>
+</assessmentItem>
