@@ -1,0 +1,8 @@
+#barChart {
+    width : 300px;
+    height : 300px;
+    font-size : 11px;
+}		
+amcharts-graph-bullet {
+  cursor: ns-resize;
+}	

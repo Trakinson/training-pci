@@ -25,7 +25,7 @@ return array(
 	'label' => 'QTI PCI for training',
 	'description' => '',
     'license' => 'GPL-2.0',
-    'version' => '0.2.0',
+    'version' => '0.3.0',
 	'author' => 'Open Assessment Technologies',
 	'requires' => array(
 	    'qtiItemPci' => '>=1.1.0',
